@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <div className='App'>
           <header className='header'>
-            <div>
+            <Link className='link' to='/'>
               <img src='assets/images/main/logo.png' />
-            </div>
+            </Link>
             <nav className='nav'>
               <ul className='nav-list'>
                 <li className='item'>
