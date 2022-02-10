@@ -65,7 +65,7 @@ const ImageList = () => {
             <div className='item'>
               <div className='inner'>
                 <div className='img-bx'>
-                  <img src={item.webformatURL} alt={item.webformatURL} />
+                  <img src={item.webformatURL} alt={item.webformatURL} onClick={openModal} />
                 </div>
                 {modalVisible && <Modal visible={modalVisible} closable={true} maskCloseable={true} onClose={closeModal}></Modal>}
               </div>
